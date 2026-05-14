@@ -1,0 +1,225 @@
+body{
+    background-color:#E7F6FF;
+    font-family: 'inter';
+}
+
+header{
+    width: 1080px;
+    height: 140px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    margin-bottom: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom: 1px solid #EAEAEA;
+    margin-top: 100px;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.b-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.b-1 img{
+    cursor: pointer;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #5C5C5C;
+}
+
+li:hover{
+    color: orangered;
+    transition: 0.5s;
+}
+
+main{
+    width: 1080px;
+    height: 1526px;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.b-2 {
+    background-color: #F4EFE9;
+    width: 940px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.b-2-1 h1{
+    padding-left: 60px;
+    font-size: 38px;
+}
+
+.b-2-1 img{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.b-2-1 img{
+    cursor: pointer;
+}
+
+.b-2 button {
+    border-radius: 110px;
+    padding: 20px 70px 20px 70px;
+    border: none;
+    background-color: #A5D364;
+    margin-left: 60px;
+    color: white;
+    font-size: 16px;
+}
+
+.b-2 button:hover{
+    cursor: pointer;
+}
+
+.kermit{
+    padding-left: 35px;
+}
+
+.b-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    align-items: center;
+}
+
+.b-3{
+    font-size: 24px;
+}
+
+form {
+    position: relative;
+    display: inline-block;
+}
+
+form img{
+    position: absolute;
+    margin-left: 18px;
+    margin-top: 12%;
+    transform: translateY(-110%);
+    width: 16px;
+    height: 16px;
+    pointer-events: none;
+}
+
+form input{
+    padding-left: 36px;
+    height: 32px;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 250px;
+    height: 45px;
+    color: #C4C4C4;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #C4C4C4;
+}
+
+.card{
+    width: 210px;
+    height: 260px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10%;
+}
+
+.boots{
+    width: 133px;
+    z-index: 0;
+}
+
+.like-on{
+    margin-bottom: 40px;
+    z-index: 1;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.like-none{
+    cursor: pointer;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-t-b{
+    display: flex;
+    flex-direction: column;
+}
+
+.price2{
+    font-size: 11px;
+    color: #BDBDBD;
+    margin-bottom: -10px;
+}
+
+.price3{
+    font-weight: 700;
+}
+
+.img-price{
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.s-2{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.s-2 p {
+    margin-left: 20px;
+}
+
+.cards{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 35px;
+}
